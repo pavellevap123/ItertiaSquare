@@ -43,7 +43,6 @@ class ViewController: UIViewController {
         animator.addBehavior(springBehavior)
         
         let snapBehavior = UISnapBehavior(item: movingView, snapTo: tapLocation)
-        //snapBehavior.damping = 0.7
         animator.addBehavior(snapBehavior)
     }
 }
